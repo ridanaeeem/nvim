@@ -11,6 +11,10 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
+				lazy = false,
+				opts = {
+					auto_install = true,
+				},
 				-- ensure_installed = { "lua_ls", "rust_analyzer", "tailwindcss", "templ", "tsserver", "lemminx", "ocamllsp", "ltex", "jsonls", "gopls", "golanci_lint_ls", "eslint", "dockerls", "cssls", "clangd", "bashls", "pyright" }
 				ensure_installed = { "lua_ls", "tsserver", "gopls", "pyright" }
 			})
