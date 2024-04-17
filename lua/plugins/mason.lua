@@ -41,7 +41,7 @@ return {
 				-- "jsonls",
 				-- "ocamllsp",
 				-- "ltex",
-				-- "bashls",
+		"bashls",
 				-- "clangd",
 				-- "eslint",
 				-- "dockerls",
