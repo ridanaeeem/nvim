@@ -27,7 +27,8 @@ vim.opt.linebreak = true
 vim.opt.breakindent = true
 
 vim.opt.termguicolors = true
-vim.opt.background = "dark"
+-- vim.opt.background = "dark"
+vim.opt.background = NONE
 
 vim.opt.scrolloff = 10
 
