@@ -3,5 +3,14 @@ return {
 	cmd = "Gitsigns",
 	config = function()
 		require("gitsigns").setup()
-	end
+	end,
+	opts = {
+		signs = {
+			add = { text = "+" },
+			change = { text = "~" },
+			delete = { text = "_" },
+			topdelete = { text = "‾" },
+			changedelete = { text = "~" },
+		},
+	},
 }
