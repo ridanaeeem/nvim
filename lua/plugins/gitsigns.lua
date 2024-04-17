@@ -1,6 +1,7 @@
 return {
 	"lewis6991/gitsigns.nvim",
 	cmd = "Gitsigns",
+	lazy = false,
 	config = function()
 		require("gitsigns").setup()
 	end,
