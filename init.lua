@@ -40,6 +40,8 @@ vim.opt.showmode = false
 
 vim.opt.signcolumn = "yes"
 
+vim.opt.winblend = 80
+
 vim.opt.list = false
 -- vim.opt.listchars = {}
 
@@ -88,5 +90,4 @@ require("lazy").setup({
 --]]
 local opts = {}
 
-require("vim-options")
 require("lazy").setup("plugins", opts)
