@@ -6,4 +6,6 @@ vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set wrap")
 vim.cmd("set linebreak")
+vim.cmd("set termguicolors")
+vim.cmd("set background=dark")
 vim.g.mapleader = " "
