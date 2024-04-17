@@ -6,7 +6,16 @@ return {
     config = function()
 	require "lualine".setup({
 	    options = {
-		theme = "ayu_mirage"
+		theme = "ayu_mirage",
+	    },
+	    sections = {
+		lualine_c = {
+		    {
+			'filename',
+			file_status = true,
+			path = 1,
+		    }
+		}
 	    }
 	})
     end
