@@ -11,6 +11,23 @@ return {
 	    matchup = { enable = true },
 	    auto_install = true,
 	    ignore_install = {},
+	    autotag = {
+		enable = true,
+		enable_rename = true,
+		enable_close = true,
+		enable_close_on_slash = true,
+		filetypes = {
+		    'html',
+		    'javascript',
+		    'typescript',
+		    'javascriptreact',
+		    'typescriptreact',
+		    'tsx',
+		    'jsx',
+		    'xml',
+		    'markdown',
+		}
+	    },
 	})
     end
 }
