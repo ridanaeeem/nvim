@@ -34,19 +34,21 @@ return {
                 "svelte",
                 "lua_ls",
                 "graphql",
-                "emmet_ls",
+                -- "emmet_ls",
                 "prismals",
                 "pyright",
                 "gopls",
-				-- "jsonls",
-				-- "ocamllsp",
-				-- "ltex",
-		"bashls",
-				-- "clangd",
-				-- "eslint",
-				-- "dockerls",
-				-- "rust_analyzer",
-				-- "templ",
+                "jsonls",
+                -- "ocamllsp",
+                -- "ltex",
+                -- "bashls",
+                -- "clangd",
+                "eslint",
+                "dockerls",
+                "rust_analyzer",
+                "templ",
+                -- "java_language_server",
+                "jdtls",
             },
         })
 
@@ -61,9 +63,9 @@ return {
             },
         })
 
-		-- vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
-		-- vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
-		-- vim.keymap.set('n', '<leader>gr', vim.lsp.buf.references, {})
-		-- vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
+        -- vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
+        -- vim.keymap.set('n', '<leader>gd', vim.lsp.buf.definition, {})
+        -- vim.keymap.set('n', '<leader>gr', vim.lsp.buf.references, {})
+        -- vim.keymap.set({'n', 'v'}, '<leader>ca', vim.lsp.buf.code_action, {})
     end,
 }
